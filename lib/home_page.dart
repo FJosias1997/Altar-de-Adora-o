@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:min_altar_de_adoracao/screens/bibliotecas.dart';
 import 'package:min_altar_de_adoracao/screens/home.dart';
 import 'package:min_altar_de_adoracao/screens/pesquisa.dart';

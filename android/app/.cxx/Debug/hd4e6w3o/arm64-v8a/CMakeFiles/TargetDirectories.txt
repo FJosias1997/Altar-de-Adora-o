@@ -1,0 +1,2 @@
+/Users/josiasfelix/Documents/app/altar_de_adoracao/Altar-de-Adora-o/android/app/.cxx/Debug/hd4e6w3o/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/josiasfelix/Documents/app/altar_de_adoracao/Altar-de-Adora-o/android/app/.cxx/Debug/hd4e6w3o/arm64-v8a/CMakeFiles/rebuild_cache.dir
