@@ -7,7 +7,7 @@ class Noticia extends StatefulWidget {
   const Noticia({Key? key}) : super(key: key);
 
   @override
-  _NoticiaState createState() => _NoticiaState();
+  State<Noticia> createState() => _NoticiaState();
 }
 
 class _NoticiaState extends State<Noticia> {

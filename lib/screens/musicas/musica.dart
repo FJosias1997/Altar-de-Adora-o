@@ -7,11 +7,11 @@ class Musica extends StatefulWidget {
   const Musica({Key? key}) : super(key: key);
 
   @override
-  _MusicaState createState() => _MusicaState();
+  State<Musica> createState() => _MusicaState();
 }
 
 class _MusicaState extends State<Musica> {
-  YoutubePlayerController _controller = YoutubePlayerController(
+  final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: 'AKdLFaoC-b8',
     flags: YoutubePlayerFlags(
       autoPlay: true,
@@ -115,7 +115,6 @@ class _MusicaState extends State<Musica> {
                     expanded: Text(
                       "Profetiza, Ezequiel\n Que esse vale de ossos secos vai reviver\n Mas Senhor, não estou vendo o Seu mover\n Ezequiel, só profetiza\n \n Como podem esses ossos reviver?\n E o Senhor, me disse: Ezequiel, é através do Meu poder\n Enquanto eu profetizava, ossos com ossos se juntavam\n Pois Deus sempre surpreende em meio ao nada\n \n Então, profetiza\n Que esses ossos vão viver\n O milagre vai acontecer\n E você vai contemplar a vitória\n \n Pode até ser impossível aos seus olhos\n Faça como Ezequiel, obedeça a ordem dos céus\n Só profetiza\n \n Pois quando você profetiza, o céu se abre\n Quando você profetiza, Deus faz milagre\n Um reboliço vai acontecer, você vai ver\n \n O vento dos quatro cantos vai soprar\n E no meio do vale Deus vai operar\n Todos os teus sonhos Ele vai ressuscitar\n Quando você profetizar\n \n Profetiza\n Profetiza\n Profetiza\n Profetiza\n \n Profetiza\n Profetiza\n Profetiza\n Profetiza\n Profetiza\n Profetiza\n \n Profetiza\n Profetiza\n Profetiza\n Profetiza\n Profetiza\n Profetiza\n \n Pois quando você profetiza, o céu se abre\n Pois quando você profetiza, Deus faz milagre\n Um reboliço vai acontecer, você vai ver\n \n O vento dos quatro cantos vai soprar\n E no meio do vale Deus vai operar\n Todos os teus sonhos Ele vai ressuscitar\n Quando você profetizar\n",
                       softWrap: true,
-                      textScaleFactor: 1.5,
                     ),
                   ),
                 ],

@@ -5,7 +5,7 @@ class Pesquisa extends StatefulWidget {
   const Pesquisa({Key? key}) : super(key: key);
 
   @override
-  _PesquisaState createState() => _PesquisaState();
+  State<Pesquisa> createState() => _PesquisaState();
 }
 
 class _PesquisaState extends State<Pesquisa> {

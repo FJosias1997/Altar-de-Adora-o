@@ -9,7 +9,7 @@ class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
   @override
-  _HomeState createState() => _HomeState();
+  State<Home> createState() => _HomeState();
 }
 
 class _HomeState extends State<Home> {
@@ -92,7 +92,7 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                   SizedBox(height: 20),
-                  Container(
+                  SizedBox(
                     height: 100,
                     child: ListView.builder(
                         scrollDirection: Axis.horizontal,
